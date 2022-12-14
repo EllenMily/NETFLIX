@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: url('./arquivos/fundo2.png.png');
+}
+
+button {
+    cursor: pointer; 
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 3rem;
+}
+
+#logo {
+    margin-right: auto;
+}
+
+#linguagensselect {
+    height: 2rem ;
+    width: 6rem;
+    background-color: transparent;
+    color: white;
+}
+
+#linguagensselect option{
+  background-color: gray;  
+}
+
+#login {
+    height: 2rem;
+    width: 5rem;
+    background-color: red;
+    border-style: none;
+    border-radius: 3px;
+    color: white;
+}
+
+header {
+    background-color: white;
+    
+    padding-bottom: -46px;
+    height: 75px ;
+}
+
+.plano {
+    padding-bottom: 41px;
+    text-align: center;
+    color: rgb(52, 52, 52);
+    font-size: 22px;
+} 
+
+.new {
+    color: rgb(255, 255, 255);
+    transform: translateY(25px) ;
+    
+}
+
+div h3.new {
+    margin-left: 721px;
+    background-color: rgb(250, 49, 49);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 70px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 17px;
+  
+}
+
+.link {
+    color: rgb(42, 133, 224);
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 1115px;
+    font-size: 20px ;
+}
+
+p {
+    transform: translateY(-65px);
+}
+
+div img.logo {
+    margin-left: 50px;
+    width: 250px;
+}
+
+.card {
+    min-width: 950px;
+    height: 495px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-h2 {
+    font-weight: 400;
+    font-size: 30px ;
+    
+}
+
+.form-container {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    
+}
+
+
+.form-h3 {
+    font-size: 24px;
+    font-weight: 400;
+    height: 40px;
+    
+}
+
+.inputt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-email {
+    width: 460px;
+    font-size:1rem;
+    padding: 1.4rem 1rem;
+
+}
+
+#btn-form {
+    padding: 1.2rem 2rem;
+    color: white;
+    background-color: rgb(212, 8, 8);
+    border-style: none;
+    font-size: 1.5rem;
+
+}
+
+#btn-form:hover {
+    background-color: red;
+}
+
+
+
